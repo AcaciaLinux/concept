@@ -4,6 +4,5 @@ This repository and website is a collection of articles describing the concept o
 
 ### Articles:
 
-- [Linking](linking)
-
-
+- [The linking process explained](linking)
+- [The `formula`](formula)
