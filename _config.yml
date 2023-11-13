@@ -2,4 +2,5 @@ remote_theme: pages-themes/hacker
 plugins:
 - jekyll-remote-theme
 
-title: AcaciaLinux concept
+title: AcaciaLinux
+description: The AcaciaLinux concept
