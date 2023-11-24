@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Formula
-permalink: /packages/formula
 ---
 
 # Package formula
 
 AcaciaLinux uses formulae to build its packages. A formula consists of a `toml` file that can link to other files relative to it for building.
 
-More information on how packages are built can be found [here](/packages/building).
+More information on how packages are built can be found [here](building).
 
 # TOML file
 

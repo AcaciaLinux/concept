@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Building a package
-permalink: /packages/building
 ---
 
-This article explains how the `builder` tool builds a package, using a [formula](/packages/formula) for instructions.
+This article explains how the `builder` tool builds a package, using a [formula](formula) for instructions.
 
 The build process is subdivided into these main steps:
 
@@ -34,7 +33,7 @@ This article uses some shorthands for the directories the builder tool uses for 
 
 # Preparing the environment <a id="prep-env"></a>
 
-An AcaciaLinux package is built in a completely isolated environment, this means that the package that gets built can only see the dependencies and files it requires, specified in the [formula's dependencies](/packages/formula#dependencies).
+An AcaciaLinux package is built in a completely isolated environment, this means that the package that gets built can only see the dependencies and files it requires, specified in the [formula's dependencies](formula#dependencies).
 
 The `root` directories of the `target_dependencies` are part of the `overlayfs` lower dirs, this allows the compiler and the build tooling to find all files at their default locations without the need of searching them in their respective `/acacia` directories.
 
@@ -128,7 +127,7 @@ If desired, this step will use the `strip` command on `ELF` files to reduce thei
 
 This step constructs an AcaiaLinux package archive from the raw directory to ease distribution of the package.
 
-More information on the layout of a package archive can be found [here](/packages/package).
+More information on the layout of a package archive can be found [here](package).
 
 ### Signing
 
