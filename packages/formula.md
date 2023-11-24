@@ -86,7 +86,7 @@ An array of architectures this `formula` can build binaries for.
 
 The architecture string is the one output by the `uname -m` command and is part of the toolchain identifier (`x86_64`, `aarch64`).
 
-Architecture-independent packages may use `*` instead of the architectures array: `arch = "*"`.
+Architecture-independent packages may use `any` instead of the architectures array: `arch = "any"`.
 
 This field is available to the build scripts under the `PKG_ARCH` environment variable, set to the architecture the package is built for.
 
@@ -107,16 +107,3 @@ The build commands that get executed in the 4 steps of building:
 - `check`: Run the test suite
 
 - `package`: Install the package into the `PKG_INSTALL_DIR`
-
-#### Environment variables:
-
-The builder exposes the following environment variables to the scripts:
-
-- `PKG_NAME`: The name of the package
-- `PKG_VERSION`: The version string of the package
-- `PKG_RELV`: The real version of the package
-- `PKG_ARCH`: The architecture the package is built for
-- `PKG_INSTALL_DIR`: The directory the package should install into
-  - Example for `make`: `DESTDIR="$PKG_INSTALL_DIR"`
-- `PKG_ROOT`: The root the package should expect its root at: `/pkg/<pkg_name>/<pkg_version>/root`
-  - Example for `configure`: `--prefix="$PKG_ROOT"`
