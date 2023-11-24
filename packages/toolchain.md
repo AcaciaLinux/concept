@@ -9,5 +9,3 @@ The builder will construct a build root from the following things:
 - A basic filesystem containing kernel filesystem mount points (`/dev`, `/sys`, `/proc`, `/run`...)
 
 - The toolchain directory, exposing the `/host` and `/acacia` directories if available
-
-

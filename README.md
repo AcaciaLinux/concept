@@ -8,4 +8,4 @@ This website contains documentation articles describing the AcaciaLinux distribu
 
 ## Categories:
 
-- [Documentation for the package pipeline](/packages)
+- [Documentation for the package pipeline](packages)

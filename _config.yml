@@ -1,16 +1,19 @@
 # Configurations
 title:            AcaciaLinux
 longtitle:        AcaciaLinux - Documentation
-author:           HE Tao
-email:            sighingnow@gmail.com
+author:           Max Kofler
+email:            kofler.max.dev@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  The AcaciaLinux documentation
 
 version:          1.0
 gitbook_version:  3.2.3
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
+
+url: 'https://acacialinux.github.io'
+baseurl: '/concept'
 
 toc:
   enabled: true
