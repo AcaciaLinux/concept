@@ -3,8 +3,12 @@ layout: post
 title: Packages
 ---
 
-This section descibes the system and steps that are required to build AcaciaLinux packages:
+This section descibes the system and steps that lies behind AcaciaLinux packages:
 
 - [How a package gets built](packages/building)
 
-- [The layout and syntax for a formula](packages/formula)
+Descriptions for files:
+
+- [The `formula` file](packages/formula)
+
+- [The package metadata file](packages/package_meta)
