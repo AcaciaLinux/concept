@@ -13,7 +13,7 @@ gitbook_version:  3.2.3
 remote_theme: sighingnow/jekyll-gitbook
 
 url: 'https://acacialinux.github.io'
-baseurl: '/concept'
+baseurl: '/docs'
 
 toc:
   enabled: true
