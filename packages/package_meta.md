@@ -19,6 +19,7 @@ description = "Package description"
 
 [[dependencies]]
 name = "Dependency name"
+arch = "Architecture"
 req_version = "Requested version"
 lnk_version = "Linked version"
 ```
@@ -53,6 +54,10 @@ An array of dependencies the package has
 
 The name of the dependency
 
+### `package.dependencies.arch`
+
+The architecture of the dependency
+
 ### `package.dependencies.req_version`
 
 The version of the dependency requested by the package
@@ -60,5 +65,3 @@ The version of the dependency requested by the package
 ### `package.dependencies.lnk_version`
 
 The version of the dependency that is linked to the package
-
-
