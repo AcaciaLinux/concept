@@ -3,6 +3,10 @@ layout: post
 title: Packages
 ---
 
+Conceptual ideas:
+
+- [Package versioning](packages/versioning)
+
 This section descibes the system and steps that lies behind AcaciaLinux packages:
 
 - [How a package gets built](packages/building)
